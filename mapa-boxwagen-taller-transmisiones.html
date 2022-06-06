@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Boxwagen</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/theme.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container box_shadow">
+			
+			<!--header-->
+			<div class="header">
+				<div class="wrap">
+					<div class="container">
+						<div class="fleft logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+						<div class="fright">
+							<img src="images/marcas.png" alt="" />
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="navbar navbar_ clearfix">
+						<div class="container menu_bg">
+							<nav id="main_menu">
+								<div class="menu_wrap">
+									<ul class="nav sf-menu">
+										<li class="current first"><a href="index.html">INICIO</a></li>
+	                                    <li class="last"><a href="Servicios-reparacion-mantencion-transmision.html">SERVICIOS</a></li>
+	                                    <li class="sub-menu first"><a href="Quienes-somos-boxwagen-transmisiones-vag.html">BOXWAGEN</a></li>
+	                                    <li class="sub-menu last"><a href="mapa-boxwagen-taller-transmisiones.html">CONTACTO/MAPA</a></li>
+	                                    <li class="sub-menu first"><a href="Lubircantes-fuchs.html">FUCHS LUBRICANTES</a></li>
+	                                    <li class="last"><a href="#">INFORMACION TECNICA</a></li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--//header-->
+			
+			<!--page_container-->
+			<div class="page_container">
+				<div class="wrap">
+					<div class="breadcrumb">
+						<div>
+							<a href="index.html">INICIO</a><span>/</span>CONTACTO
+						</div>
+					</div>
+					<div class="container">
+						<section>
+							<div class="row">
+								<div class="span44">
+									<h2 class="title">Formulario</h2>
+									<p style="font-weight: bold; font-style: italic;">Importante: En mensaje indique Número de Chasis/ VIN </p>
+									<!-- Do not change the code! -->
+									<a id="foxyform_embed_link_330668" href="http://es.foxyform.com/" ng-show="false">.</a>
+									<script type="text/javascript">
+										(function(d, t){
+											var g = d.createElement(t),
+											s = d.getElementsByTagName(t)[0];
+											g.src = "http://es.foxyform.com/js.php?id=330668&sec_hash=cffdd4c4622&width=350px";
+											s.parentNode.insertBefore(g, s);
+										}(document, "script"));
+									</script>
+										<!-- Do not change the code! -->
+										<!-- Do not change the code! -->
+										<!-- <a id="foxyform_embed_link_232234" href="http://es.foxyform.com/">.</a>
+									<script type="text/javascript">
+									(function(d, t){
+									var g = d.createElement(t),
+									s = d.getElementsByTagName(t)[0];
+									g.src = "";
+									s.parentNode.insertBefore(g, s);
+									}(document, "script"));
+									</script> -->
+									<!-- Do not change the code! -->
+								</div>
+								<div class="span44">
+									<h2 class="title">Donde Estamos</h2>
+									<div class="contact_form">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.33294738366!2d-70.6487887!3d-33.4666814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5159cb6e70f%3A0xe8307b83f8a927b4!2sSan+Diego+1538%2C+Santiago%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1437530906870" width="550" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<!--//page_container-->
+			
+			<!--footer-->
+			<div id="footer">
+				
+				
+				<div class="footer_bottom">
+					<div class="wrap">
+						<div class="container">
+							<div class="fleft copyright"><font color="black"><br><strong>BoxWagen Ltda. |  Fonos: +569 4201 7113 / +562 2551 2399 | Correos: <a href="mailto:servicio@BoxWagen.cl">servicio@boxwagen.cl</a>  / <a href="mailto:servicio.BoxWagen@gmail.com">servicio.boxwagen@gmail.com</a> | Dirección: San Diego 1538, Santiago</strong></font></div>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--//footer-->
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/superfish.js"></script>
+		<script type="text/javascript" src="js/jquery.tweet.js"></script>
+		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+		<script type="text/javascript" src="js/myscript.js"></script>
+		<script type="text/javascript">
+					$(document).ready(function(){
+					$("#ajax-contact-form").submit(function() {
+								var str = $(this).serialize();
+						$.ajax({
+							type: "POST",
+							url: "contact_form/contact_process.php",
+							data: str,
+							success: function(msg) {
+								// Message Sent - Show the 'Thank You' message and hide the form
+								if(msg == 'OK') {
+									result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
+									$("#fields").hide();
+								} else {
+									result = msg;
+								}
+								$('#note').html(result);
+							}
+						});
+						return false;
+																				});
+						});
+		</script>
+	</body>
+</html>
