@@ -1,0 +1,55 @@
+body {
+	overflow-x:hidden;
+	position:relative;
+	margin: 0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	font-size: 13px;
+	line-height: 20px;
+	color: #9a9281;
+	background-attachment: fixed;
+    background-image: url(../img/bg.jpg);
+    background-position: 0 0 !important;
+    background-repeat: repeat;
+}
+
+.cabecera {
+    background-color: #fdfaee;
+}
+
+.menu-bg {
+    background-color: #9a9281 !important;
+}
+
+a:hover, a:focus {
+	text-decoration:none;
+	color:#6a979b;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #45423a !important;
+    color: white !important;
+  }
+
+  .nav-link {
+    color: #45423a !important;
+  }
+
+  .nav-link:focus, .nav-link:hover {
+      color : ;
+  }
